@@ -1,0 +1,43 @@
+{
+  "cookies": [
+    {
+      "name": "ARRAffinity",
+      "value": "227011b2e2632fdca027bd8016fbc746e32106ec420672f296549087fbefe89f",
+      "domain": ".cabinbook-ui-uat.azurewebsites.net",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "ARRAffinitySameSite",
+      "value": "227011b2e2632fdca027bd8016fbc746e32106ec420672f296549087fbefe89f",
+      "domain": ".cabinbook-ui-uat.azurewebsites.net",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://cabinbook-ui-uat.azurewebsites.net",
+      "localStorage": [
+        {
+          "name": "persist:uat:cabinbook-auth",
+          "value": "{\"loading\":\"\\\"succeeded\\\"\",\"data\":\"{\\\"accessToken\\\":\\\"eyJhbGciOiJIUzM4NCIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoicWxkYSIsIklkIjoiNjk5OCIsImZ1bGxuYW1lIjoiTlAgVGVzdGVyIiwiYWNjb3VudCI6InFsZGEiLCJjcmV3SWQiOiJERVY3IiwiZGV2aWNlSWQiOiIwIiwiRGV2aWNlUElEIjoiOTkyZjQxNDEtNjdmZS00YjBjLWFmOTgtZjM4MjdiNWE2ZjhmIiwiVG9rZW5WZXJzaW9uIjoiNTNlYjcwNTItM2Q1My00MzI2LTk3NmMtYjc3NWFkN2IxMTI5Iiwic3ViIjoicWxkYSIsImVtYWlsIjoidHJhbTE3MDEwM0BnbWFpbC5jb20iLCJqdGkiOiIxNWZhNTY2YS0wZjA5LTQzZjUtYjc0My0wYjRiZTQzYWZmOTIiLCJuYmYiOjE3NTE2MDA1NjEsImV4cCI6MTc1MTY4Njk2MSwiaWF0IjoxNzUxNjAwNTYxLCJpc3MiOiJodHRwczovL2RldjIuY3Jldy52bi8iLCJhdWQiOiJodHRwczovL2RldjIuY3Jldy52biJ9.hJk1hdfv0S0jcuLnJ6fsH_lCbsPoUQnfgrX4Z0vc9Tl4Mdh9YIajUWm3C404HbhA\\\",\\\"refreshToken\\\":\\\"eyJhbGciOiJIUzM4NCIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoicWxkYSIsIklkIjoiNjk5OCIsImZ1bGxuYW1lIjoiTlAgVGVzdGVyIiwiYWNjb3VudCI6InFsZGEiLCJjcmV3SWQiOiJERVY3IiwiZGV2aWNlSWQiOiIwIiwiRGV2aWNlUElEIjoiOTkyZjQxNDEtNjdmZS00YjBjLWFmOTgtZjM4MjdiNWE2ZjhmIiwiVG9rZW5WZXJzaW9uIjoiZmNmYmI4YmMtZmI5Yy00ZTMxLWIwODktYmZiY2YxMjZiNTUyIiwic3ViIjoicWxkYSIsImVtYWlsIjoidHJhbTE3MDEwM0BnbWFpbC5jb20iLCJqdGkiOiJjNWZkZThhZS1jNDlmLTQyYTQtYjNkMi03MDJkY2JlNDhiMDIiLCJuYmYiOjE3NTE2MDA1NjEsImV4cCI6MTc1MjIwNTM2MSwiaWF0IjoxNzUxNjAwNTYxLCJpc3MiOiJodHRwczovL2RldjIuY3Jldy52bi8iLCJhdWQiOiJodHRwczovL2RldjIuY3Jldy52biJ9.X4zX0Uop0P7EyvkNDssLCBjkOU3T2EsJ-BDTPcA6c-47A4AODa-s3SyHiIvEhhnh\\\"}\",\"_persist\":\"{\\\"version\\\":-1,\\\"rehydrated\\\":true}\"}"
+        },
+        {
+          "name": "persist:uat:cabinbook-browser",
+          "value": "{\"id\":\"\\\"df8422e9-b5bf-4ea3-8a00-b7340783fee0\\\"\",\"_persist\":\"{\\\"version\\\":-1,\\\"rehydrated\\\":true}\"}"
+        },
+        {
+          "name": "persist:uat:cabinbook-ui-config",
+          "value": "{\"loginVersion\":\"\\\"v2\\\"\",\"benchMarkMinimized\":\"false\",\"_persist\":\"{\\\"version\\\":-1,\\\"rehydrated\\\":true}\"}"
+        }
+      ]
+    }
+  ]
+}
