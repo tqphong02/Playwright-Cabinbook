@@ -1,8 +1,7 @@
-// tests/login.spec.js
 import { test } from '@playwright/test';
 import { addAllureMetadata } from '../utils/addAllureMetadata.js';
 
-test('Login and save session', async ({ page }, testInfo) => {
+test('@login Login and save session', async ({ page }, testInfo) => {
 
     addAllureMetadata(testInfo, {
         feature: 'Checklist Chất xếp',
