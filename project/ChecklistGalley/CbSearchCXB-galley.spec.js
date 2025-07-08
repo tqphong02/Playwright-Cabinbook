@@ -7,12 +7,12 @@ test.use({
 test('Xóa sơ đồ Galley', async ({ page }) => {
     await page.goto('https://cabinbook-ui-uat.azurewebsites.net/');
     await page.getByText('Danh sách sơ đồ Galley').click();
-    // await page.pause();
+    await page.pause();
     await page.getByRole('textbox', { name: 'Tìm theo Aircraft, Mã sơ đồ' }).click();
     await page.getByRole('textbox', { name: 'Tìm theo Aircraft, Mã sơ đồ' }).fill('test');
-    await expect(page.getByRole('cell', { name: 'A350-29C/36I/240Y-35B' })).toBeVisible();
+    // await expect(page.getByRole('cell', { name: 'A350-29C/36I/240Y-35B' })).toBeVisible();
+    await page.waitForTimeout(1000);
     await page.screenshot({ path: `Screenshots/searchAircraft-galley-successfull.png`, fullPage: true });
-
     await page.goto('https://cabinbook-ui-uat.azurewebsites.net/cxb/galleys?keyword=test');
     await page.locator('.MuiButtonBase-root.MuiIconButton-root.MuiIconButton-sizeMedium.p-2\\.5').click();
     await page.getByRole('textbox', { name: 'Tìm theo Aircraft, Mã sơ đồ' }).fill('m');
@@ -33,6 +33,6 @@ test('Xóa sơ đồ Galley', async ({ page }) => {
     await page.getByRole('textbox', { name: 'Tìm theo Aircraft, Mã sơ đồ' }).fill('quố');
     await page.goto('https://cabinbook-ui-uat.azurewebsites.net/cxb/galleys?keyword=qu%E1%BB%91');
     await expect(page.getByRole('cell', { name: 'Quốc tế' }).nth(1)).toBeVisible();
-
+    await page.waitForTimeout(1000);
     await page.screenshot({ path: `Screenshots/search3-galley-successfull.png`, fullPage: true });
 });

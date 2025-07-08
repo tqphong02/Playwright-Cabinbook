@@ -11,7 +11,7 @@ test('Create sơ đồ galley', async ({ page }) => {
     await page.getByRole('combobox', { name: 'Aircraft' }).click();
     await page.getByRole('option', { name: 'A350-29C/36I/240Y-35B' }).click();
     await page.getByRole('textbox', { name: 'Mã sơ đồ Galley' }).click();
-    await page.getByRole('textbox', { name: 'Mã sơ đồ Galley' }).fill('test test'); // thay đổi mỗi lần test
+    await page.getByRole('textbox', { name: 'Mã sơ đồ Galley' }).fill('nhớ thay đổi mã sơ galley'); // thay đổi mỗi lần test
     await page.getByRole('combobox', { name: 'Khung thời gian' }).click();
     await page.getByRole('option', { name: 'Buổi sáng', exact: true }).click();
     await page.getByRole('combobox', { name: 'Nhóm đường bay' }).click();

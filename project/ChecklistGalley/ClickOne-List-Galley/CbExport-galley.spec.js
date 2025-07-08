@@ -9,6 +9,7 @@ test.use({
 test('Export Galley', async ({ page }) => {
     await page.goto('https://cabinbook-ui-uat.azurewebsites.net/');
     await page.getByText('Danh sách sơ đồ Galley').click();
+    await page.pause();
     await page.getByRole('cell', { name: 'A350-29C/36I/240Y-35B' }).first().click();
     await page.getByRole('tab', { name: 'Galley' }).click();
 

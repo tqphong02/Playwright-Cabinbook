@@ -10,7 +10,7 @@
     "test:cxb": "npx playwright test project/CXB",
     "test:checklist:checklist": "npx playwright test project/ChecklistGalley/ClickOne-List-Checklist-Galley",
     "test:checklist:galley": "npx playwright test project/ChecklistGalley/ClickOne-List-Galley",
-    "test:checklist": "npx playwright test project/ChecklistGalley",
+    "test:checklist": "npx playwright test project/ChecklistGalley/CbCreateCXB-galley.spec.js project/ChecklistGalley/CbDeleteCXB-galley.spec.js project/ChecklistGalley/CbSearchCXB-galley.spec.js project/ChecklistGalley/CbUpdateCXB-galley.spec.js",
     "test:flights": "npx playwright test project/List-Flights",
     "test:all": "npx playwright test project --grep-invert @login",
     "env": "node utils/writeEnvironment.js && node utils/writeCategories.js && node utils/writeExecutor.js",

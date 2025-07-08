@@ -25,7 +25,7 @@ test('Update Galley: drag and resize item', async ({ page }) => {
         const startX = box.x + box.width / 2;
         const startY = box.y + box.height / 2;
 
-        const offsetX = 100; // Di chuyển sang phải
+        const offsetX = -100; // Di chuyển sang phải
         const offsetY = 0;
 
         await page.mouse.move(startX, startY);
@@ -60,4 +60,63 @@ test('Update Galley: drag and resize item', async ({ page }) => {
 
     // === Bước 3: Nhấn nút Lưu
     await page.getByRole('button', { name: 'Lưu' }).click();
+
+
+
+    //cách 2 
+
+    //     await page.goto('https://cabinbook-ui-uat.azurewebsites.net/');
+    // await page.getByText('Danh sách sơ đồ Galley').click();
+
+    // await page.goto('https://cabinbook-ui-uat.azurewebsites.net/cxb/galleys');
+    // await page.getByRole('cell', { name: 'A350-29C/36I/240Y-35B' }).nth(1).click();
+    // await page.getByRole('tab', { name: 'Galley' }).click();
+
+    // // Mở giao diện chỉnh sửa sơ đồ
+    // await page.getByRole('button').filter({ hasText: /^$/ }).nth(2).click();
+
+    // const source = page.locator('[gs-id="4635e067-10c6-4460-8b94-37f5bd38212e"]');
+    // await expect(source).toBeVisible();
+    // await page.waitForTimeout(1000);
+
+    // // === Bước 1: Kéo item sang trái 100px
+    // const sourceBox = await source.boundingBox();
+    // if (sourceBox) {
+    //     const fromX = sourceBox.x + sourceBox.width / 2;
+    //     const fromY = sourceBox.y + sourceBox.height / 2;
+    //     const toX = fromX - 100;
+    //     const toY = fromY;
+
+    //     await page.mouse.move(fromX, fromY);
+    //     await page.mouse.down();
+    //     await page.waitForTimeout(200);
+    //     await page.mouse.move(toX, toY, { steps: 10 });
+    //     await page.mouse.up();
+    // }
+
+    // await page.waitForTimeout(1000);
+
+    // // === Bước 2: Resize item bằng kéo góc dưới bên phải
+    // const resizeHandle = source.locator('.ui-resizable-handle.ui-resizable-se');
+    // await expect(resizeHandle).toBeVisible();
+
+    // const resizeBox = await resizeHandle.boundingBox();
+    // if (resizeBox) {
+    //     const resizeFromX = resizeBox.x + resizeBox.width / 2;
+    //     const resizeFromY = resizeBox.y + resizeBox.height / 2;
+    //     const resizeToX = resizeFromX + 100;
+    //     const resizeToY = resizeFromY + 100;
+
+    //     await page.mouse.move(resizeFromX, resizeFromY);
+    //     await page.mouse.down();
+    //     await page.waitForTimeout(200);
+    //     await page.mouse.move(resizeToX, resizeToY, { steps: 10 });
+    //     await page.mouse.up();
+    // }
+
+    // await page.waitForTimeout(1000);
+
+    // // === Bước 3: Nhấn nút Lưu
+    // await page.getByRole('button', { name: 'Lưu' }).click();
+
 });
