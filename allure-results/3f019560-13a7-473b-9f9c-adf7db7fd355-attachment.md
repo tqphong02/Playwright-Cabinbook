@@ -1,0 +1,482 @@
+# Page snapshot
+
+```yaml
+- region "Notifications alt+T"
+- heading "Version:" [level=6]
+- paragraph: v25.7.8_10:28 (uat)
+- heading "Memory:" [level=6]
+- paragraph: 39.55 MB / 78.97 MB
+- img
+- banner:
+  - button
+  - link:
+    - /url: /
+    - img
+  - button "NP Tester":
+    - paragraph: NP Tester
+- button
+- text: "MÃ SƠ ĐỒ GALLEY: A350-890-(29C/36I/240Y) NĐ.01"
+- paragraph: "Aircraft:"
+- text: A350-29C/36I/240Y-35B
+- paragraph: "Khung thời gian:"
+- text: Cả ngày
+- paragraph: "Nhóm đường bay:"
+- text: "Group 1: SVO"
+- paragraph: "Mô tả:"
+- text: Sơ đồ A350-890-(29C/36I/240Y) NĐ.01
+- tablist "Galley tabs":
+  - tab "CheckList"
+  - tab "Galley" [selected]
+- button "Huỷ bỏ"
+- button "Lưu"
+- heading "Front Galley" [level=3]:
+  - button "Front Galley" [expanded]
+- region:
+  - paragraph: EP-01
+  - img "no-img"
+  - paragraph: EP
+  - paragraph: 1FR05-I.D*
+  - img "no-img"
+  - paragraph: Ice Drawer
+  - paragraph: 1FR01-WB
+  - img "no-img"
+  - paragraph: Water boiler
+  - paragraph: 1FR02-WB
+  - img "no-img"
+  - paragraph: Water boiler
+  - paragraph: 1FR03-EM
+  - img "no-img"
+  - paragraph: EM
+  - paragraph: 1FR04-SU
+  - img "no-img"
+  - paragraph: Container
+  - paragraph: 1FR06- STW
+  - img "no-img"
+  - paragraph: Stowage
+  - paragraph: Sink-01
+  - img "no-img"
+  - paragraph: Sink
+  - paragraph: 1FR07-T12
+  - img "no-img"
+  - paragraph: Trolley 1/2
+  - paragraph: 1FR08-T11
+  - img "no-img"
+  - paragraph: Trolley 1/1
+  - paragraph: 1FR09AB-2T12C
+  - img "no-img"
+  - paragraph: Trolley 1/2
+  - paragraph: 1FR10-T11C
+  - img "no-img"
+  - paragraph: Trolley 1/1
+  - paragraph: 1FR11-T11C
+  - img "no-img"
+  - paragraph: Trolley 1/1
+  - paragraph: 1FR12AB-2T12
+  - img "no-img"
+  - paragraph: Waste cart
+  - paragraph: 1FR13-STW
+  - img "no-img"
+  - paragraph: Stowage
+  - paragraph: EP-02
+  - img "no-img"
+  - paragraph: EP
+  - paragraph: 1A02AB-2SU
+  - img "no-img"
+  - paragraph: Container
+  - paragraph: IA01
+  - img "no-img"
+  - paragraph: IA
+  - paragraph: 1A03AB-2SU
+  - img "no-img"
+  - paragraph: Container
+  - paragraph: 1A04-RCC
+  - img "no-img"
+  - paragraph: RCC
+  - paragraph: 1AL01
+  - img "no-img"
+  - paragraph: Bar unit
+  - paragraph: 1AL02
+  - img "no-img"
+  - paragraph: Bar unit
+  - paragraph: 1AL03
+  - img "no-img"
+  - paragraph: Bar unit
+  - paragraph: 1A05-OVN
+  - img "no-img"
+  - paragraph: OVEN
+  - paragraph: 1A06-OVN
+  - img "no-img"
+  - paragraph: OVEN
+  - paragraph: 1A07-STW
+  - img "no-img"
+  - paragraph: Stowage
+  - paragraph: 1A08-SCS
+  - img "no-img"
+  - paragraph: SCS-chiller
+  - paragraph: 1AL04
+  - img "no-img"
+  - paragraph: Bar unit
+  - paragraph: 1A11-T11C
+  - img "no-img"
+  - paragraph: Trolley 1/1
+  - paragraph: 1A12-T11C
+  - img "no-img"
+  - paragraph: Trolley 1/1
+  - paragraph: 1A13-STW
+  - img "no-img"
+  - paragraph: Stowage
+  - paragraph: 1A14AB-2T12C
+  - img "no-img"
+  - paragraph: Trolley 1/2
+  - paragraph: 1A15AB-2T12C
+  - img "no-img"
+  - paragraph: Trolley 1/2
+  - paragraph: 1AL05AB-2T12
+  - img "no-img"
+  - paragraph: Trolley 1/2
+  - paragraph: 1AL06AB-2T12
+  - img "no-img"
+  - paragraph: Trolley 1/2
+  - paragraph: IA02
+  - img "no-img"
+  - paragraph: MMMMMMMMMMMMMMMM
+- heading "Mid Galley" [level=3]:
+  - button "Mid Galley" [expanded]
+- region:
+  - paragraph: 2AR01-SU
+  - img "no-img"
+  - paragraph: Container
+  - paragraph: 2AR02-SU
+  - img "no-img"
+  - paragraph: Container
+  - paragraph: 2F01AB-2SU
+  - img "no-img"
+  - paragraph: Container
+  - paragraph: 2F02AB-2SU
+  - img "no-img"
+  - paragraph: Container
+  - paragraph: IA01
+  - img "no-img"
+  - paragraph: IA
+  - paragraph: EP01
+  - img "no-img"
+  - paragraph: EP
+  - paragraph: 2F04AB-2SU
+  - img "no-img"
+  - paragraph: Container
+  - paragraph: 2AR03-SU
+  - img "no-img"
+  - paragraph: Container
+  - paragraph: 2AR04-SU
+  - img "no-img"
+  - paragraph: Container
+  - paragraph: 2F06-SCS
+  - img "no-img"
+  - paragraph: SCS-chiller
+  - paragraph: 2F07-SU
+  - img "no-img"
+  - paragraph: Container
+  - paragraph: 2F08-WB
+  - img "no-img"
+  - paragraph: Water boiler
+  - paragraph: 2F09-WB
+  - img "no-img"
+  - paragraph: Water boiler
+  - paragraph: 2F10-STW
+  - img "no-img"
+  - paragraph: Stowage
+  - paragraph: 2F11-SU
+  - img "no-img"
+  - paragraph: Container
+  - paragraph: 2AR05-SU
+  - img "no-img"
+  - paragraph: Container
+  - paragraph: 2AR06-SU
+  - img "no-img"
+  - paragraph: Container
+  - paragraph: 2F12-SU
+  - img "no-img"
+  - paragraph: Container
+  - paragraph: Sink
+  - img "no-img"
+  - paragraph: Sink
+  - paragraph: 2F13-SU
+  - img "no-img"
+  - paragraph: Bar unit
+  - paragraph: 2AR07AB-2T12
+  - img "no-img"
+  - paragraph: Trolley 1/2
+  - paragraph: 2AR08AB-2T12
+  - img "no-img"
+  - paragraph: Trolley 1/2
+  - paragraph: 2F14AB-T11/ 2T12C
+  - img "no-img"
+  - paragraph: Trolley 1/1
+  - paragraph: 2F15-T11/2T12C
+  - img "no-img"
+  - paragraph: Trolley 1/1
+  - paragraph: 2F16-STW
+  - img "no-img"
+  - paragraph: Stowage
+  - paragraph: 2F17-T11/2T12C
+  - img "no-img"
+  - paragraph: Trolley 1/1
+  - paragraph: 2F18-T11/2T12C
+  - img "no-img"
+  - paragraph: Trolley 1/1
+  - paragraph: 2A01AB-2SU
+  - img "no-img"
+  - paragraph: Container
+  - paragraph: 2A02AB-2SU
+  - img "no-img"
+  - paragraph: Container
+  - paragraph: 2A03-STW
+  - img "no-img"
+  - paragraph: Stowage
+  - paragraph: EP02
+  - img "no-img"
+  - paragraph: EP
+  - paragraph: 2A04AB-2SU
+  - img "no-img"
+  - paragraph: Container
+  - paragraph: 2A05AB-2SU
+  - img "no-img"
+  - paragraph: Container
+  - paragraph: 2A07-OVN
+  - img "no-img"
+  - paragraph: OVEN
+  - paragraph: 2A08-OVN
+  - img "no-img"
+  - paragraph: OVEN
+  - paragraph: 2A09-STW
+  - img "no-img"
+  - paragraph: Stowage
+  - paragraph: 2A10-OVN
+  - img "no-img"
+  - paragraph: OVEN
+  - paragraph: 2A11-SU
+  - img "no-img"
+  - paragraph: Container
+  - paragraph: 2A12-SU
+  - img "no-img"
+  - paragraph: Container
+  - paragraph: 2A13-SU
+  - img "no-img"
+  - paragraph: Container
+  - paragraph: 2A14-SU
+  - img "no-img"
+  - paragraph: Container
+  - paragraph: 2A15AB-2T12 ONLY
+  - img "no-img"
+  - paragraph: Trolley 1/2
+  - paragraph: 2A16-AB-2T12 ONLY
+  - img "no-img"
+  - paragraph: Trolley 1/2
+  - paragraph: 2A17-STW
+  - img "no-img"
+  - paragraph: Stowage
+  - paragraph: 2A18-T11C
+  - img "no-img"
+  - paragraph: Trolley 1/1
+  - paragraph: 2A19AB-2T12C
+  - img "no-img"
+  - paragraph: Trolley 1/1
+  - paragraph: 2A20-T11
+  - img "no-img"
+  - paragraph: Waste cart
+- heading "Rear Galley" [level=3]:
+  - button "Rear Galley" [expanded]
+- region:
+  - paragraph: 4F01-T11C
+  - img "no-img"
+  - paragraph: Trolley 1/1
+  - paragraph: 4F02-AB-2T2C
+  - img "no-img"
+  - paragraph: Trolley 1/2
+  - paragraph: 4F03AB-2T12C
+  - img "no-img"
+  - paragraph: Trolley 1/2
+  - paragraph: 4F04-T12
+  - img "no-img"
+  - paragraph: Trolley 1/2
+  - paragraph: 4F05-T12
+  - img "no-img"
+  - paragraph: Trolley 1/2
+  - paragraph: 4M01-T11
+  - img "no-img"
+  - paragraph: Trolley 1/1
+  - paragraph: 4M02-T11
+  - img "no-img"
+  - paragraph: Trolley 1/1
+  - paragraph: 4AR01-STW
+  - img "no-img"
+  - paragraph: Stowage
+  - paragraph: 4AR02-SU
+  - img "no-img"
+  - paragraph: Container
+  - paragraph: 4AR03-SU
+  - img "no-img"
+  - paragraph: Container
+  - paragraph: 4AR04-SU
+  - img "no-img"
+  - paragraph: Container
+  - paragraph: EP01
+  - img "no-img"
+  - paragraph: EP
+  - paragraph: 4 AR05-SU
+  - img "no-img"
+  - paragraph: Container
+  - paragraph: 4AR06-SU
+  - img "no-img"
+  - paragraph: Container
+  - paragraph: 4AR07AB-2 SU
+  - img "no-img"
+  - paragraph: Container
+  - paragraph: 4AR08-WB
+  - img "no-img"
+  - paragraph: Water boiler
+  - paragraph: 4AR09-WB
+  - img "no-img"
+  - paragraph: Water boiler
+  - paragraph: 4AR10-WB
+  - img "no-img"
+  - paragraph: Stowage
+  - paragraph: EP02
+  - img "no-img"
+  - paragraph: EP
+  - paragraph: 4AL01-SU
+  - img "no-img"
+  - paragraph: Container
+  - paragraph: 4AL02-SU
+  - img "no-img"
+  - paragraph: Container
+  - paragraph: 4AL03-SU
+  - img "no-img"
+  - paragraph: Container
+  - paragraph: 4AR11 STW
+  - img "no-img"
+  - paragraph: Stowage
+  - paragraph: 4AR12-SU
+  - img "no-img"
+  - paragraph: Container
+  - paragraph: 4AR13- SU
+  - img "no-img"
+  - paragraph: Container
+  - paragraph: 4AR14-I.D*
+  - img "no-img"
+  - paragraph: Ice Drawer
+  - paragraph: Sink01
+  - img "no-img"
+  - paragraph: Sink
+  - paragraph: 4AL05-WB
+  - img "no-img"
+  - paragraph: Water boiler
+  - paragraph: 4AL06-WB
+  - img "no-img"
+  - paragraph: Water boiler
+  - paragraph: 4AL07-AB-2SU
+  - img "no-img"
+  - paragraph: Container
+  - paragraph: 4AL08-SU
+  - img "no-img"
+  - paragraph: Container
+  - paragraph: 4AL09-SU
+  - img "no-img"
+  - paragraph: Container
+  - paragraph: 4AR16-T11C
+  - img "no-img"
+  - paragraph: Trolley 1/1
+  - paragraph: 4AR17-T11C
+  - img "no-img"
+  - paragraph: Trolley 1/1
+  - paragraph: 4AR18-T11C
+  - img "no-img"
+  - paragraph: Trolley 1/1
+  - paragraph: 4AR19-T11C
+  - img "no-img"
+  - paragraph: Trolley 1/1
+  - paragraph: Sink02
+  - img "no-img"
+  - paragraph: Sink
+  - paragraph: 4AL10-ID*
+  - img "no-img"
+  - paragraph: Ice Drawer
+  - paragraph: 4AL11-SU
+  - img "no-img"
+  - paragraph: Container
+  - paragraph: 4AL12-SU
+  - img "no-img"
+  - paragraph: Container
+  - paragraph: 4AL14-T11C
+  - img "no-img"
+  - paragraph: Trolley 1/1
+  - paragraph: 4AL15-T11C
+  - img "no-img"
+  - paragraph: Trolley 1/1
+  - paragraph: 4AL16-T11C
+  - img "no-img"
+  - paragraph: Trolley 1/1
+  - paragraph: 4AL17-T11C
+  - img "no-img"
+  - paragraph: Trolley 1/2
+  - paragraph: 4A01AB-2SU
+  - img "no-img"
+  - paragraph: Container
+  - paragraph: 4A02AB-2SU
+  - img "no-img"
+  - paragraph: Container
+  - paragraph: 4A03AB-2SU
+  - img "no-img"
+  - paragraph: Container
+  - paragraph: IA02
+  - img "no-img"
+  - paragraph: IA
+  - paragraph: 4A04AB-2SU
+  - img "no-img"
+  - paragraph: Container
+  - paragraph: 4A05AB-2SU
+  - img "no-img"
+  - paragraph: Container
+  - paragraph: 4A06AB-2SU
+  - img "no-img"
+  - paragraph: Container
+  - paragraph: 4A07-OVN
+  - img "no-img"
+  - paragraph: OVEN
+  - paragraph: 4A08-OVN
+  - img "no-img"
+  - paragraph: OVEN
+  - paragraph: 4A09-OVN
+  - img "no-img"
+  - paragraph: OVEN
+  - paragraph: 4A10-STW
+  - img "no-img"
+  - paragraph: Stowage
+  - paragraph: 4A11-OVN
+  - img "no-img"
+  - paragraph: OVEN
+  - paragraph: 4A12-OVN
+  - img "no-img"
+  - paragraph: OVEN
+  - paragraph: 4A13-OVN
+  - img "no-img"
+  - paragraph: OVEN
+  - paragraph: 4A15-T11C
+  - img "no-img"
+  - paragraph: Trolley 1/1
+  - paragraph: 4A16-T11C
+  - img "no-img"
+  - paragraph: Trolley 1/1
+  - paragraph: 4A17-T11C
+  - img "no-img"
+  - paragraph: Trolley 1/1
+  - paragraph: 4A18-T11C
+  - img "no-img"
+  - paragraph: Trolley 1/1
+  - paragraph: 4A19-T11C
+  - img "no-img"
+  - paragraph: Trolley 1/1
+  - paragraph: 4A20-T11C
+  - img "no-img"
+  - paragraph: Trolley 1/1
+```

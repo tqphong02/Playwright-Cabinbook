@@ -8,7 +8,7 @@ test('Chỉnh sửa checklist thiết bị Galley', async ({ page }) => {
     await page.goto('https://cabinbook-ui-uat.azurewebsites.net/');
     await page.getByText('Danh sách sơ đồ Galley').click();
     await page.getByRole('cell', { name: 'A350-29C/36I/240Y-35B' }).first().click();
-    await page.pause();
+    // await page.pause();
     await page.getByRole('checkbox', { name: '1 b72 spririt Water Boiler' }).getByLabel('Cập nhật').click();
     await page.locator('div').filter({ hasText: /^Galley Position$/ }).getByLabel('Open').click();
     await page.getByRole('option', { name: 'Rear Galley' }).click();
